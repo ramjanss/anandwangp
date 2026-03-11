@@ -1,2 +1,1 @@
-# anandwangp
-This is a project of Anandwan Grampanchayat
+# wandhali-smart-gp
