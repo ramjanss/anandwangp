@@ -116,13 +116,11 @@ document.getElementById("addBtn").onclick = async () => {
       photoUrl = await getDownloadURL(storageRef);
     }
 
-    await addDoc(collection(db, "members"), {
-  name,
-  role,
-  phone,
-  type,
-  order,
-  photoUrl,
+    await addDoc(collection(db,"members"),{
+  name: name,
+  role: role,
+  type: type,
+  photoUrl: photoUrl,
   gpid: GP_ID
 });
 
