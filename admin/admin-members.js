@@ -16,7 +16,7 @@ import {
   getDownloadURL
 } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
 
-const GP_ID = "anandwangp";
+const GP_ID = "anandwan";
 
 const storage = getStorage();
 
